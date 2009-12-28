@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
+	"http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+	<bean id="keywordwiredfromspring" class="org.robotframework.springdoc.EnhancedDocumentedKeywordMock">
+ 		<property name="name" value="Keyword Wired From Spring"></property>
+	</bean>
+	<bean id="conflictingkeyword" class="org.robotframework.springdoc.EnhancedDocumentedKeywordMock">
+	 	<property name="name" value="Conflicting Keyword"></property>
+	</bean>
+	<bean id="keywordWithUnnormalizedName" class="org.robotframework.springdoc.EnhancedDocumentedKeywordMock">
+ 		<property name="name" value="Keyword With Unnormalized Name"></property>
+	</bean>
+	<bean id="oldKeywordWithoutDocumentation" class="org.robotframework.springdoc.KeywordMock">
+	</bean>
+</beans>
