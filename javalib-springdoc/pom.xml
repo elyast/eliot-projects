@@ -44,4 +44,10 @@
 			<version>1.5.8</version>
 		</dependency>
 	</dependencies>
+  <repositories>
+    <repository>
+      <id>laughingpanda</id>
+      <url>http://www.laughingpanda.org/maven2</url>
+    </repository>
+  </repositories>
 </project>
